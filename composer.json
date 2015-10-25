@@ -16,5 +16,10 @@
     "psr-4": {
       "AddictedToMagento\\DynamicForms\\": "src"
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.0.x-dev"
+    }
   }
 }
