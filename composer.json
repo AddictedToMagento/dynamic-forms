@@ -1,0 +1,20 @@
+{
+  "name": "addictedtomagento/dynamic-forms",
+  "description": "Magento 2 Module to create Dynamic Forms",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "require": {
+    "php": ">=5.6.0",
+    "magento/module-store": "1.0.0-beta",
+    "magento/module-theme": "1.0.0-beta",
+    "magento/module-widget": "1.0.0-beta",
+    "magento/module-backend": "1.0.0-beta",
+    "magento/framework": "1.0.0-beta"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "AddictedToMagento\\DynamicForms\\": "src"
+    }
+  }
+}

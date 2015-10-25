@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="AddictedToMagento_DynamicForms::dynamic_forms"
+             title="Dynamic Forms"
+             module="AddictedToMagento_DynamicForms"
+             sortOrder="50"
+             parent="Magento_Backend::content"
+             resource="AddictedToMagento_DynamicForms::dynamic_forms" />
+        <add id="AddictedToMagento_DynamicForms::form"
+             title="Form"
+             module="AddictedToMagento_DynamicForms"
+             sortOrder="50"
+             action="dynamic_form/form"
+             parent="AddictedToMagento_DynamicForms::dynamic_forms"
+             resource="AddictedToMagento_DynamicForms::form" />
+    </menu>
+</config>
