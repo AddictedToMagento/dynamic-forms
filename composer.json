@@ -6,9 +6,6 @@
   "require": {
     "php": ">=5.6.0",
     "magento/module-store": "1.0.0-beta",
-    "magento/module-theme": "1.0.0-beta",
-    "magento/module-widget": "1.0.0-beta",
-    "magento/module-backend": "1.0.0-beta",
     "magento/framework": "1.0.0-beta"
   },
   "autoload": {
