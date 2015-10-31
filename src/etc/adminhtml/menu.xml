@@ -11,7 +11,7 @@
              title="Form"
              module="AddictedToMagento_DynamicForms"
              sortOrder="50"
-             action="dynamic_form/form"
+             action="dynamic_forms/form"
              parent="AddictedToMagento_DynamicForms::dynamic_forms"
              resource="AddictedToMagento_DynamicForms::form" />
     </menu>

@@ -13,7 +13,7 @@
         </arguments>
     </virtualType>
 
-    <virtualType name="PostGridDataProvider"
+    <virtualType name="FormGridDataProvider"
                  type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
         <arguments>
             <argument name="collection" xsi:type="object" shared="false">AddictedToMagento\DynamicForms\Model\ResourceModel\Form\Collection</argument>
