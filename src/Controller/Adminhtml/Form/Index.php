@@ -14,6 +14,7 @@
 namespace AddictedToMagento\DynamicForms\Controller\Adminhtml\Form;
 
 use Magento\Backend\App\Action\Context;
+use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\View\Result\PageFactory;
 
 /**
@@ -47,9 +48,9 @@ class Index extends \Magento\Backend\App\Action
     }
 
     /**
-     * @return \Magento\Framework\Controller\ResultInterface
+     * @return ResultInterface
      */
-    protected function execute()
+    protected function executeInternal()
     {
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
         $resultPage = $this->resultPageFactory->create();
